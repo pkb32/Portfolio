@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import NavbarMain from './components/navbar/NavbarMain'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className='bg-zinc-800 w-full h-screen text-white'>Hello Prayash</h1>
-    </>
+    <main className='font-body'>
+     <NavbarMain/>
+    </main>
   )
 }
 
