@@ -7,10 +7,11 @@ import AboutMeMain from './components/aboutMeSection/AboutMeMain'
 import HelperSection from './components/HelperSection'
 import SkillsMain from './components/skillSection/SkillsMain'
 import SubSkills from './components/skillSection/SubSkills'
+import ExperienceMain from './components/experienceSection/ExperienceMain'
 
 function App() {
   return (
-    <main className='font-body'>
+    <main className='font-body '>
      <NavbarMain/>
      <HeroMain/>
      <HeroGradient/>
@@ -18,6 +19,7 @@ function App() {
      <AboutMeMain/>
      <SkillsMain/> 
      <SubSkills/>
+     <ExperienceMain />
 
      <HelperSection/>
     </main>
