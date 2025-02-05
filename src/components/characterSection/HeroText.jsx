@@ -1,18 +1,39 @@
-import React from 'react'
+import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
+
+
 
 function HeroText() {
+
   return (
     <div className=' flex flex-col gap-4 h-full justify-center md:text-left sm:text-center '>
-        <h2 className=' uppercase lg:text-2xl sm:text-xl text-cyan  '>
+        <motion.h2
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+         className=' uppercase lg:text-2xl sm:text-xl text-cyan  '>
             Web Developer
-        </h2>
-        <h1 className=' uppercase md:text-[2.8rem] leading-none tracking-tighter lg:text-5.7xl sm:text-4xl font-bold font-special text-orange '>
-            Prayash Kumar Behera
-        </h1>
-        <p className='text-lg mt-4 text-white'>
+        </motion.h2>
+        <motion.h1
+        variants={fadeIn("right", 0.4)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className="uppercase md:text-[2.8rem] leading-none tracking-tighter lg:text-5.7xl sm:text-4xl font-bold font-special text-orange"
+      >
+        Prayash Kumar Behera
+      </motion.h1>
+        <motion.p 
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className='text-lg mt-4 text-white'>
             Hello folks! <br />
             I am technophile and I love to code.
-        </p>
+        </motion.p>
     </div>
   )
 }
