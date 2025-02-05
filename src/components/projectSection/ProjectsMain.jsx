@@ -36,7 +36,6 @@ const projects = [
 function ProjectsMain() {
     return (
         <div id="projects" className="max-w-[1290px] mx-auto px-4">
-         
             <ProjectsText />
         
           <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
