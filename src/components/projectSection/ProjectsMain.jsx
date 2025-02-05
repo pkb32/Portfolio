@@ -6,33 +6,41 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
     {
-      name: "Vacation of Africa",
-      year: "Mar2022",
+      name: " Videotube-Server",
+      year: "January 2025",
       align: "right",
-      image: "/images/website-img-1.jpg",
-      link: "#",
+      image: "/images/VideoTube.png",
+      link: "https://github.com/pkb32/Metube/tree/main",
     },
     {
-      name: "Moola App",
-      year: "Sept2022",
+      name: "Shareo",
+      year: "December 2024",
       align: "left",
-      image: "/images/website-img-2.webp",
-      link: "#",
+      image: "/images/blogging.png",
+      link: "https://blogging-site-flax.vercel.app/",
     },
     {
-      name: "Tourzania",
-      year: "Jan2023",
+      name: "Virtual Reality Game",
+      year: "October 2023",
       align: "right",
-      image: "/images/website-img-3.jpg",
-      link: "#",
+      image: "/images/VR2.jpeg",
+      link: "https://github.com/pkb32/VR_Rush",
     },
     {
-      name: "Bank of Luck",
-      year: "May2024",
+      name: "Autonomous Bot",
+      year: "March 2023",
       align: "left",
-      image: "/images/website-img-4.jpg",
-      link: "#",
+      image: "/images/BB1.jpeg",
+      link: "https://drive.google.com/file/d/1Bn5PRUaIaAfYxgeta-qkNR94jHTBAJxq/view?usp=drivesdk",
     },
+    {
+      name: "First Person Shooter",
+      year: "September 2022",
+      align: "right",
+      image: "/images/Hunt.png",
+      link: "https://github.com/pkb32/The_Hunt",
+    },
+    
   ];
 
 function ProjectsMain() {
@@ -56,6 +64,7 @@ function ProjectsMain() {
                   year={project.year}
                   align={project.align}
                   image={project.image}
+                  link={project.link}
                 />
               );
             })}
