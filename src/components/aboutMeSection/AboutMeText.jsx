@@ -12,7 +12,8 @@ function AboutMeText() {
         I am currently pursuing my B.Tech degree in Mining Engineering at NIT Rourkela with a cummulative grade point of 8.49. Apart from studies, I am the
         part of a few tech clubs here and I love to play cricket, badminton and chess.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10  hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan">
+      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10  hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan"
+      onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
           My Projects
       </button>
     </div>
