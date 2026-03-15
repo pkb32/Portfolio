@@ -9,7 +9,7 @@ const experiences = [
     {
       job: "Code Head cum Secretary",
       company: "GTA- Game To Aim",
-      date: "2021 - Present",
+      date: "2021 - 2025 (NITR)",
       responsibilities: [
         "Started my journey in the technical team.",
         "Participate in various clubs events building FPS & VR Games.",
@@ -20,7 +20,7 @@ const experiences = [
     {
       job: "Blue Bird 1.0 Team Captain",
       company: "ASME- American Society Of Mechanical Engineers",
-      date: "2021 - Present",
+      date: "2021 - 2025 (NITR)",
       responsibilities: [
         "I was the part of Technical Chassis Team.",
         "Have Designed and built the Chassis of Electric Human Powered Vehicle.",
@@ -28,13 +28,13 @@ const experiences = [
       ],
     },
     {
-      job: "Core Team Member",
-      company: "Nitrushav & Innovision",
-      date: "2022 - 2024",
+      job: "Project Lead",
+      company: "SCB- Standard Chartered Bank",
+      date: "2025 - 2026 (Apprenticeship)",
       responsibilities: [
-        "I was the part of Event Management Team in Innovision, the Tech Fest of NITR",
-        "I was the part of Travelling and Accomodation in Nitrushav, the Cultural Fest of NITR",
-        "I have lead a team of 30+ members and have organized the events successfully",
+        "I was the lead of a team of 5 members working in developing a Python automation utility for the bank.",
+        "Divided the project into various modules and assigned the tasks to my team members.",
+        "Successfull in reducing the bussiness cost by 32% and enhancing operational efficiency.",
       ],
     },
   ];

@@ -5,37 +5,66 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
+  
+    {
+      name: "Automate Fyers",
+      year: "2026",
+      align: "right",
+      image: "/images/AutoTrade.png",
+      link: "https://github.com/pkb32/Automate-Fyers/tree/main/strategies",
+    },      
+    {
+      name: "Vibe Checker",
+      year: "2025",
+      align: "left",
+      image: "/images/vibe.png",
+      link: "https://github.com/pkb32/viveChecker",
+    },
+    {
+      name: "Calender Tracker",
+      year: "2025",
+      align: "right",
+      image: "/images/Vibe_Calender.png",
+      link: "https://calender-virid.vercel.app/",
+    },
+    {
+      name: " ORTMS",
+      year: "2025",
+      align: "left",
+      image: "/images/ORTMS.png",
+      link: "https://real-time-monitoring-two.vercel.app/",
+    },
     {
       name: " Videotube-Server",
-      year: "January 2025",
+      year: "2025",
       align: "right",
       image: "/images/VideoTube.png",
       link: "https://github.com/pkb32/Metube/tree/main",
     },
     {
       name: "Shareo",
-      year: "December 2024",
+      year: "2024",
       align: "left",
       image: "/images/blogging.png",
       link: "https://blogging-site-flax.vercel.app/",
     },
     {
       name: "Virtual Reality Game",
-      year: "October 2023",
+      year: "2023",
       align: "right",
       image: "/images/VR2.jpeg",
       link: "https://github.com/pkb32/VR_Rush",
     },
     {
       name: "Autonomous Bot",
-      year: "March 2023",
+      year: "2023",
       align: "left",
       image: "/images/BB1.jpeg",
-      link: "https://drive.google.com/file/d/1Bn5PRUaIaAfYxgeta-qkNR94jHTBAJxq/view?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1Bn5PRUaIaAfYxgeta-qkNR94jHTBAJxq/view?usp=drivesdkn",
     },
     {
       name: "First Person Shooter",
-      year: "September 2022",
+      year: "2022",
       align: "right",
       image: "/images/Hunt.png",
       link: "https://github.com/pkb32/The_Hunt",

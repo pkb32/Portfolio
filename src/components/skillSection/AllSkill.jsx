@@ -12,6 +12,7 @@ import { FaNode } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiArduino } from "react-icons/si";
 import SingleSkill from './SingleSkill';
+import { FaPython } from "react-icons/fa";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -47,10 +48,6 @@ const skills = [
         icon: RiTailwindCssFill,
       },
       {
-        skill:"BootStrap",
-        icon: FaBootstrap
-      },
-      {
         skill: "Unity Engine",
         icon: SiUnity
       },
@@ -65,6 +62,10 @@ const skills = [
       {
         skill:"Arduino",
         icon:SiArduino
+      },
+      {
+        skill:"Python",
+        icon:FaPython
       }
 ]
 

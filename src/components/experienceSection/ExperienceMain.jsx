@@ -26,7 +26,7 @@ function ExperienceMain() {
         <ExperienceTop/>
       </motion.div>
       <div className="w-full h-1 mt-4 bg-lightBrown lg:block sm:hidden"></div>
-      <div className='flex flex-col items-center mt-[100px] text-6xl text-cyan'> Extra Curicular</div>
+      <div className='flex flex-col items-center mt-[100px] text-6xl text-cyan'> Leadership </div>
       <AllExperience/>
     </div>
   )
